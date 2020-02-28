@@ -8,6 +8,10 @@ header {
     margin: 0 auto;
 }
 
+h1{
+    display: none;
+}
+
 /* =========heder========= */
 .main_nav a {
     text-decoration: none;
@@ -46,6 +50,8 @@ header {
     color: rgb(255, 255, 255);
     margin-top: 117px;
     margin-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .share_your_holiday_dreams {
@@ -184,9 +190,9 @@ header {
 }
 
 /* ==========media=========== */
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .wraper {
-        width: 768px;
+        width: 750px;
         margin: 0 auto;
     }
 
@@ -224,14 +230,15 @@ header {
     .partner_cart {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         width: 463px;
         margin: 0 auto;
     }
 }
 
-@media (min-width:1440px) {
+@media screen and (min-width:960px) {
     .wraper {
-        width: 940px;
+        min-width: 942px;
         margin: 0 auto;
     }
 
